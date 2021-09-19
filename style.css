@@ -1,18 +1,23 @@
 *{
 	margin: 0;
 	padding: 0;
-
 }
+
 .navbar{
-
-border: none;
-background-color: black;
-color: #61122F;
+  border: none;
+  background-color: pink;
+  margin-bottom: 0;
 }
+
+.navbar-brand span{
+  color: black;
+  font-family: 'Lora', serif;
+}
+
 body{
 	background-color: #61122F;
-	color: white;
 }
+
 .glyphicon{
 	font-size: 30px;
 	color:#61122F;
@@ -20,23 +25,48 @@ body{
 
 .center{
 	width: 90%;
-	background-color: grey;
+}
 
+.container{
+	background-color: pink;
 }
-.container
-{
-	background-color: grey;
+
+.description{
+  color: black;
+  padding: 0 20px 0 20px;
+  font-size: 20px;
 }
+
 .text-center{
 	font-size: 30px;
 }
 
+h1{
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  color: pink;
+  margin: 0 0 30px 0;
+}
+
 h2{
 	text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lora', serif;
 }
+
 #myNavbar ul li a {
 	color: #61122F;
+  text-align: center;
 }
+
 .navbar-brand{
-font-size: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+#chicken:hover, #beef:hover, #sushi:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
